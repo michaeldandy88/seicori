@@ -1,0 +1,150 @@
+body {
+    font-family: 'Arial', sans-serif; /* Gunakan font Gaegu */
+    background-color: #A56C46;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #A56C46;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#hero {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+#hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+#hero p {
+    font-size: 24px;
+    margin: 10px 0 40px;
+    
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px;
+    
+}
+
+.menu-item {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+}
+
+.menu-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+
+.menu-item p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.menu-item button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#about {
+    padding: 40px 20px;
+    background-color: #F3E1D1;
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 36px;
+    margin: 0 0 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info div {
+    width: 22%;
+}
+
+.info p {
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+.info a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: #A56C46;
+    color: #fff;
+}
+
+.footer-image {
+    max-width: auto;
+    height: auto;
+}
+@font-face {
+    font-family: 'Gaegu';
+    src: url('fonts/gaegu.ttf') format('truetype');
+}
+.info{
+ align-items:first baseline;
+}
+.sosmed{
+    align-items:first baseline;
+   }
+.order{
+    align-items:first baseline;
+   }
+.jadawl{
+    align-items:first baseline;
+   }
